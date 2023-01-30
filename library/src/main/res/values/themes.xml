@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--  TODO : rounded image view   -->
+    <style name="rounded_5" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">5%</item>
+    </style>
+
+    <style name="rounded_50" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- TODO :  Bottom Sheet Dialog Style   -->
+    <style name="bottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">15dp</item>
+        <item name="cornerSizeTopLeft">15dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- TODO :  Dialog Animation   -->
+    <style name="DialogAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/animation_bounce</item>
+        <item name="android:windowExitAnimation">@anim/animation_off</item>
+    </style>
+
+    <style name="DialogAnimation.FullScreen" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/animation_on</item>
+        <item name="android:windowExitAnimation">@anim/animation_off</item>
+    </style>
+
+
+    <!-- TODO : Alert Style   -->
+    <style name="alertTextStyle" parent="">
+        <item name="android:fontFamily">@font/font_regular</item>
+    </style>
+
+    <style name="alertTitleStyle" parent="">
+        <item name="android:fontFamily">@font/font_bold</item>
+    </style>
+
+
+</resources>

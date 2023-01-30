@@ -1,0 +1,67 @@
+<resources>
+
+    <!--  TODO : State Ful Strings  -->
+    <string name="stfButtonText">حاول مجددا</string>
+    <string name="stfEmptyMessage">اوبس ، لا شيء هنا</string>
+    <string name="stfErrorMessage">حصل خطأ. الرجاء المحاوله مرة اخرى</string>
+    <string name="stfLoadingMessage">جار التحميل..</string>
+    <string name="stfLocationOffMessage">الرجاء تمكين خدمات الموقع</string>
+    <string name="stfOfflineMessage">الرجاء التحقق من اتصال الانترنت الخاص بك</string>
+
+    <!--  TODO : Network Helper Strings  -->
+    <string name="no_internet_connection">لا يوجد اتصال بالإنترنت!</string>
+    <string name="do_open_internet_settings">هل تريد فتح إعدادات الإنترنت؟</string>
+    <string name="open_internet_settings">فتح إعدادات الإنترنت؟</string>
+    <string name="no_gps_connection">الوصول للموقع غير متاح!</string>
+    <string name="open_gps_settings">هل تريد فتح وضع الموقع؟</string>
+
+    <!--  TODO : Base Strings  -->
+    <string name="alert">تنبيه</string>
+    <string name="open">افتح</string>
+    <string name="ok">نعم</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="cancel">إلغاء</string>
+    <string name="guest">زائر</string>
+    <string name="update">تحديث</string>
+    <string name="filters">فلتر</string>
+    <string name="apply">يُقدِّم</string>
+    <string name="task_cancelled">تم إلغاء المهمة</string>
+    <string name="close_app">اغلاق التطبيق</string>
+
+    <!--TODO : Select  -->
+    <string name="select_language">اختار اللغة</string>
+
+    <!--TODO : EditText Input error  -->
+    <string name="empty">لا يوجد شيء هنا!</string>
+    <string name="password_must_than">يجب ألا تقل كلمة المرور عن</string>
+    <string name="characters">الحروف</string>
+    <string name="password_not_match">كلمة المرور غير متطابقة</string>
+    <string name="blank_field">لا يمكن ترك هذا الحقل فارغا</string>
+    <string name="invalid_email">يرجى إدخال البريد الإلكتروني الصحيح</string>
+
+    <!--TODO : retrofit api server error response -->
+    <string name="logged_from_another_device">تم تسجيل الدخول من جهاز آخر ، كود:</string>
+    <string name="not_found">الصفحة غير متوفرة ، كود:</string>
+    <string name="many_request">خطأ ، لقد قمت بإرسال العديد من الطلبات في وقت قصير ، كود:</string>
+    <string name="server_is_broker">الخادم لا يعمل ، كود:</string>
+    <string name="server_not_available">الخادم غير متوفر ، كود:</string>
+    <string name="error_unknown">خطأ غير معروف ، كود:</string>
+
+    <!--TODO : Auth  -->
+    <string name="must_login">!يجب تسجيل الدخول أولاً</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="delete_account">حذف الحساب</string>
+    <string name="sure_delete_account">هل انت متأكد انك تريد حذف حسابك؟</string>
+    <string name="sure_logout">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+
+    <!--TODO : Log In With -->
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="log_in_google">تسجيل الدخول من خلال جوجل</string>
+    <string name="log_in_facebook">تسجيل الدخول من خلال فيسبوك</string>
+    <string name="sign_up_google">إفتح حساب من خلال جوجل</string>
+    <string name="sign_up_facebook">إفتح حساب من خلال فيسبوك</string>
+    <string name="app_name">Library</string>
+
+
+</resources>

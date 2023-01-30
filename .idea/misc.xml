@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/ic_check.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/ic_close.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/ic_face_id.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/ic_facebook.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/ic_google.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/ic_thumb.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/shape_black_round.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/shape_btn.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/shape_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/shape_edit_text.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/shape_edit_text_error.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/stf_ic_empty.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/stf_ic_error.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/stf_ic_offline.xml" value="0.1" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/activity_no_internet.xml" value="0.152" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/custom_filter.xml" value="0.259375" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/custom_stf_template.xml" value="0.2" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/dialog_alert.xml" value="0.259375" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/dialog_list_filter.xml" value="0.259375" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/include_biometric.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

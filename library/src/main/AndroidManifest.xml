@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mrq.library">
+    <!-- TODO: Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application android:name=".base.BaseApplication">
+        <activity
+            android:name=".ui.activities.NoInternetActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

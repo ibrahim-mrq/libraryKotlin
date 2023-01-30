@@ -1,0 +1,67 @@
+<resources>
+
+    <!--  TODO : State Ful Strings  -->
+    <string name="stfButtonText">Try again</string>
+    <string name="stfEmptyMessage">Oops, Nothing here</string>
+    <string name="stfErrorMessage">An error has occurred, please try again later</string>
+    <string name="stfLoadingMessage">loading..</string>
+    <string name="stfLocationOffMessage">Please enable location services</string>
+    <string name="stfOfflineMessage">Please check your internet connection</string>
+
+    <!--  TODO : Network Helper Strings  -->
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="do_open_internet_settings">Do you want to open the internet settings?</string>
+    <string name="open_internet_settings">Open the internet settings?</string>
+    <string name="no_gps_connection">The GPS is closed!</string>
+    <string name="open_gps_settings">Do you want open GPS setting?</string>
+
+    <!--  TODO : Base Strings  -->
+    <string name="alert">Alert</string>
+    <string name="open">Open</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="guest">Guest</string>
+    <string name="update">Update</string>
+    <string name="filters">Filters</string>
+    <string name="apply">Apply</string>
+    <string name="task_cancelled">Task Cancelled</string>
+    <string name="close_app">Close Application</string>
+
+    <!--TODO : Select  -->
+    <string name="select_language">Select Language</string>
+
+    <!--TODO : EditText Input error  -->
+    <string name="empty">There is nothing here!</string>
+    <string name="password_must_than">Password must not be less than</string>
+    <string name="characters">characters</string>
+    <string name="password_not_match">Password does not match</string>
+    <string name="blank_field">This field cannot be left blank</string>
+    <string name="invalid_email">Please enter a valid email</string>
+
+    <!--TODO : retrofit api server error response -->
+    <string name="logged_from_another_device">Logged in from another device, Code:</string>
+    <string name="not_found">The page is not available, Code:</string>
+    <string name="many_request">error, You send many request in a short time, Code:</string>
+    <string name="server_is_broker">Server is broker, Code:</string>
+    <string name="server_not_available">Server not available, Code:</string>
+    <string name="error_unknown">error unKnown, Code:</string>
+
+    <!--TODO : Auth  -->
+    <string name="sure_delete_account">Are you sure you want to delete your account?</string>
+    <string name="sure_logout">Are you sure you want to log out?</string>
+    <string name="must_login">You must be logged in first!</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="logout">Logout</string>
+
+    <!--TODO : Log In With -->
+    <string name="log_in">Log In</string>
+    <string name="log_in_google">Log In With Google</string>
+    <string name="sign_up_google">Sign Up With Google</string>
+    <string name="log_in_facebook">Log In With Facebook</string>
+    <string name="sign_up_facebook">Sign Up With Facebook</string>
+    <string name="app_name">Library</string>
+
+
+</resources>
