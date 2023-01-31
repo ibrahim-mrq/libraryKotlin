@@ -8,10 +8,9 @@ import androidx.biometric.BiometricPrompt
 import androidx.biometric.BiometricPrompt.PromptInfo
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.FragmentActivity
-import java.lang.Exception
 import java.util.concurrent.Executor
 
-class Biometric(private val context: Context, val hasUserBiometric: Boolean) {
+class Biometric(private val context: Context, private val hasUserBiometric: Boolean) {
 
     private var executor: Executor? = null
     private var biometricPrompt: BiometricPrompt? = null
@@ -20,13 +19,7 @@ class Biometric(private val context: Context, val hasUserBiometric: Boolean) {
     fun getInstance(view: View, onSucceeded: () -> Unit) {
         checkBiometric(view)
         intBiometric(onSucceeded)
-    }
-
-    fun onClick() {
-        try {
-            biometricPrompt!!.authenticate(promptInfo!!)
-        } catch (ex: Exception) {
-        }
+        biometricPrompt!!.authenticate(promptInfo!!)
     }
 
     private fun intBiometric(onSucceeded: () -> Unit) {

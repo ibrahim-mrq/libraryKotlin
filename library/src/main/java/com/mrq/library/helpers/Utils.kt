@@ -41,15 +41,18 @@ import androidx.dynamicanimation.animation.DynamicAnimation
 import androidx.dynamicanimation.animation.SpringAnimation
 import androidx.dynamicanimation.animation.SpringForce
 import androidx.viewpager2.widget.ViewPager2
+import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import com.google.android.play.core.appupdate.AppUpdateManagerFactory
 import com.google.android.play.core.install.model.AppUpdateType
 import com.google.android.play.core.install.model.UpdateAvailability
 import com.mrq.library.R
+import com.mrq.library.base.BaseBottomSheet
 import com.mrq.library.base.BaseDialog
 import com.mrq.library.databinding.DialogAlertBinding
 import com.mrq.library.databinding.DialogListFilterBinding
+import com.mrq.library.databinding.SheetTestBinding
 import com.mrq.library.stateful.StatefulLayout
 import com.mrq.library.ui.dapters.DialogFilterAdapter
 import com.orhanobut.hawk.Hawk
@@ -273,6 +276,22 @@ interface Utils {
         )
         dialog.isCancelable = false
         dialog.show((context as AppCompatActivity).supportFragmentManager, "")
+    }
+
+    // TODO : BottomSheet
+    fun bottomSheet(context: Activity) {
+        val bottomSheet = BaseBottomSheet(
+            layoutRes = R.layout.sheet_test,
+            onBind = { dialog, binding ->
+                binding as SheetTestBinding
+//                binding.message.text = "message"
+                binding.close.setOnClickListener {
+                    dialog.dismiss()
+                }
+            })
+        bottomSheet.bottomSheetBehavior = BottomSheetBehavior.STATE_COLLAPSED
+        bottomSheet.isCancelable = false
+        bottomSheet.show((context as AppCompatActivity).supportFragmentManager, "")
     }
 
     // TODO : System

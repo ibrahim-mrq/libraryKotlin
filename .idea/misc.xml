@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/app/src/main/res/layout/activity_main.xml" value="0.13148148148148148" />
         <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/ic_check.xml" value="0.1" />
         <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/ic_close.xml" value="0.1" />
         <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/drawable/ic_face_id.xml" value="0.1" />
@@ -21,8 +22,9 @@
         <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/custom_filter.xml" value="0.259375" />
         <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/custom_stf_template.xml" value="0.2" />
         <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/dialog_alert.xml" value="0.259375" />
-        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/dialog_list_filter.xml" value="0.259375" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/dialog_list_filter.xml" value="0.2" />
         <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/include_biometric.xml" value="0.4" />
+        <entry key="..\:/Users/aboma/AndroidStudioProjects/Repositories/Library/library/src/main/res/layout/sheet_test.xml" value="0.259375" />
       </map>
     </option>
   </component>

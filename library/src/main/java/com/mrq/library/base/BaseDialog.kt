@@ -19,7 +19,7 @@ import kotlin.Exception
 open class BaseDialog<T>() : DialogFragment() where T : ViewDataBinding {
 
     private var layoutRes: Int = 0
-    private var style: Int = R.style.DialogAnimation
+    private var animationStyle: Int = R.style.DialogAnimation
     private var onBind: (binding: T) -> Unit = { _ -> }
     private var onCancelListener: () -> Unit = {}
 
@@ -35,12 +35,12 @@ open class BaseDialog<T>() : DialogFragment() where T : ViewDataBinding {
 
     constructor(
         @LayoutRes layoutRes: Int,
-        @StyleRes style: Int,
+        @StyleRes animationStyle: Int,
         onBind: (binding: T) -> Unit,
         onCancelListener: () -> Unit = {}
     ) : this() {
         this.layoutRes = layoutRes
-        this.style = style
+        this.animationStyle = animationStyle
         this.onBind = onBind
         this.onCancelListener = onCancelListener
     }
@@ -69,7 +69,7 @@ open class BaseDialog<T>() : DialogFragment() where T : ViewDataBinding {
                 ViewGroup.LayoutParams.WRAP_CONTENT
             )
             it.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
-            it.window!!.setWindowAnimations(style)
+            it.window!!.setWindowAnimations(animationStyle)
         }
     }
 
@@ -82,6 +82,7 @@ open class BaseDialog<T>() : DialogFragment() where T : ViewDataBinding {
             binding = DataBindingUtil.inflate(inflater, layoutRes, container, false)
             binding.root
         } catch (e: Exception) {
+            dismiss()
             Log.e(
                 "BaseDialogException",
                 "Inflating Error, You had forget to convert your layout to data binding layout"

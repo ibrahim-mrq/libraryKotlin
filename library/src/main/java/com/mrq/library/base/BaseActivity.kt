@@ -1,6 +1,5 @@
 package com.mrq.library.base
 
-import android.app.Activity
 import android.content.Intent
 import android.util.Patterns
 import android.widget.EditText

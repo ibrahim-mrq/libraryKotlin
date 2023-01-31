@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
 
     <!--  TODO : rounded image view   -->
     <style name="rounded_5" parent="">
@@ -34,6 +34,11 @@
         <item name="android:windowExitAnimation">@anim/animation_off</item>
     </style>
 
+    <!-- TODO :  Bottom Sheet Animation   -->
+    <style name="BottomSheetAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/animation_bounce_bottom</item>
+        <item name="android:windowExitAnimation">@anim/animation_off_bottom</item>
+    </style>
 
     <!-- TODO : Alert Style   -->
     <style name="alertTextStyle" parent="">

@@ -1,12 +1,14 @@
 package com.mrq.library.base
 
 import android.app.Activity
+import android.app.Application
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import com.facebook.*
+import com.facebook.appevents.AppEventsLogger
 import com.facebook.login.LoginManager
 import com.facebook.login.LoginResult
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -22,7 +24,19 @@ open class BaseSocialMedia : BaseActivity() {
 
     lateinit var googleLoginActivityForResult: ActivityResultLauncher<Intent>
 
-    fun facebookLoginRequest(socialMediaResults: SocialMediaResults<SocialMediaModel>) {
+    fun facebookSdkInitialize(context: Activity, fbId: String, fbToken: String) {
+        FacebookSdk.setApplicationId(fbId)
+        FacebookSdk.setClientToken(fbToken)
+        FacebookSdk.sdkInitialize(context)
+    }
+
+    fun facebookLoginRequest(
+        context: Activity, fbId: String, fbToken: String,
+        socialMediaResults: SocialMediaResults<SocialMediaModel>
+    ) {
+        FacebookSdk.setApplicationId(fbId)
+        FacebookSdk.setClientToken(fbToken)
+        FacebookSdk.sdkInitialize(context)
         val callbackManager: CallbackManager = CallbackManager.Factory.create()
         LoginManager.getInstance().logOut()
         LoginManager.getInstance()
