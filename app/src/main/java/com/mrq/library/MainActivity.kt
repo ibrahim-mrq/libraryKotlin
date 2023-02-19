@@ -19,7 +19,7 @@ class MainActivity : BaseSocialMedia() {
     }
 
     private fun initView() {
-//        facebookSdkInitialize(this, "516792700440941", "442740c0dcfacb65453cdcc9a68ad640")
+//        facebookSdkInitialize(this, "", "")
 
         binding.view.setOnClickListener {
 //            val biometric = Biometric(this, true)
@@ -28,8 +28,8 @@ class MainActivity : BaseSocialMedia() {
 //            }
             facebookLoginRequest(
                 this,
-                "1078713676352471",
-                "798e8f85817a6d24759977b611bc23fa",
+                "",
+                "",
                 object : SocialMediaResults<SocialMediaModel> {
                     override fun onSuccess(response: SocialMediaModel) {
                         showAlert(this@MainActivity, response.name!!, R.color.purple_200)
